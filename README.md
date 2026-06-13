@@ -1,20 +1,56 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Sir Lock
 
-# Run and deploy your AI Studio app
+A robust desktop security and [Insert Brief App Purpose Here] application built with **React**, **Vite**, and **Electron**.
 
-This contains everything you need to run your app locally.
+## 🚀 Key Features
 
-View your app in AI Studio: https://ai.studio/apps/d651ca41-2582-4fa4-bc7e-95d0558d8df6
+*   **[Feature 1]**: A brief description of this feature.
+*   **[Feature 2]**: A brief description of this feature.
+*   **[Feature 3]**: A brief description of this feature.
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+*   **Frontend**: React, Tailwind CSS
+*   **Framework**: Electron
+*   **Build Tool**: Vite
+*   **Language**: TypeScript
 
+## 📋 Prerequisites
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Ensure you have the following installed on your machine:
+
+*   [Node.js](https://nodejs.org/) (Recommended: LTS version v18 or higher)
+*   npm
+
+## 🚀 Setup & Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone <your-repo-url>
+    cd sir-lock
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+## 💻 Development
+
+To run the application in development mode with hot-reloading:
+
+```bash
+npm run dev
+```
+
+## 📦 Building for Production
+
+To package the application into a distributable installer (e.g., `.exe` for Windows):
+
+```bash
+npm run electron:build
+```
+
+The resulting installers will be generated in the automatically created `release/` directory.
+
+---
